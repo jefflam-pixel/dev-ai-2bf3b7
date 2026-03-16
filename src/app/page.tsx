@@ -11,17 +11,17 @@ export default function Home() {
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-6">Features</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/dev-ai" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Dev ai</h3>
-              <p className="text-blue-200 text-sm">Navigate to /dev-ai</p>
+            <a href="/dev-ai-engine" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Dev ai engine</h3>
+              <p className="text-blue-200 text-sm">Navigate to /dev-ai-engine</p>
             </a>
-            <a href="/development-lifecycle" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Development lifecycle</h3>
-              <p className="text-blue-200 text-sm">Navigate to /development-lifecycle</p>
+            <a href="/lifecycle-management" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Lifecycle management</h3>
+              <p className="text-blue-200 text-sm">Navigate to /lifecycle-management</p>
             </a>
-            <a href="/qa-testing" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Qa testing</h3>
-              <p className="text-blue-200 text-sm">Navigate to /qa-testing</p>
+            <a href="/quality-assurance" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Quality assurance</h3>
+              <p className="text-blue-200 text-sm">Navigate to /quality-assurance</p>
             </a>
             <a href="/agent-integration" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-2">Agent integration</h3>
