@@ -11,17 +11,21 @@ export default function Home() {
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-6">Features</h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <a href="/dev-engine" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Dev engine</h3>
-              <p className="text-blue-200 text-sm">Navigate to /dev-engine</p>
+            <a href="/dev-ai" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Dev ai</h3>
+              <p className="text-blue-200 text-sm">Navigate to /dev-ai</p>
             </a>
-            <a href="/workflow" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Workflow</h3>
-              <p className="text-blue-200 text-sm">Navigate to /workflow</p>
+            <a href="/development-lifecycle" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Development lifecycle</h3>
+              <p className="text-blue-200 text-sm">Navigate to /development-lifecycle</p>
             </a>
-            <a href="/standards" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Standards</h3>
-              <p className="text-blue-200 text-sm">Navigate to /standards</p>
+            <a href="/qa-testing" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Qa testing</h3>
+              <p className="text-blue-200 text-sm">Navigate to /qa-testing</p>
+            </a>
+            <a href="/agent-integration" className="block bg-white/10 hover:bg-white/20 transition rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">Agent integration</h3>
+              <p className="text-blue-200 text-sm">Navigate to /agent-integration</p>
             </a>
           </div>
         </div>
