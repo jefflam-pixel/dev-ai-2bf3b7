@@ -1,13 +1,10 @@
-import { Metadata } from 'next';
+"use client";
+
+import React from "react";
 import Link from 'next/link';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, CheckCircle, AlertTriangle, Monitor, Settings } from 'lucide-react';
-
-export const metadata: Metadata = {
-  title: 'Production Overview',
-  description: 'Overview of production system requirements and standards'
-};
 
 const productionModules = [
   {

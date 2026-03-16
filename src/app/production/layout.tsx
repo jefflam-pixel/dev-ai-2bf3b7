@@ -1,13 +1,3 @@
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: {
-    template: '%s | Production | Dev AI',
-    default: 'Production | Dev AI'
-  },
-  description: 'Production system management and monitoring'
-};
-
 export default function ProductionLayout({
   children,
 }: {

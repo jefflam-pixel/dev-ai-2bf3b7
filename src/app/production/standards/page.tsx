@@ -1,12 +1,9 @@
-import { Metadata } from 'next';
+"use client";
+
+import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, AlertTriangle, Shield, Zap, Monitor, Lock } from 'lucide-react';
-
-export const metadata: Metadata = {
-  title: 'Production System Standards | Dev AI',
-  description: 'Requirements for final production systems delivery'
-};
 
 const standards = [
   {
